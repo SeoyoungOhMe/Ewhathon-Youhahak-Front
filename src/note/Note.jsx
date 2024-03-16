@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
-import * as S from "./note.style";
+import { Quiz } from "../quiz";
 
 export function Note() {
-  return <></>;
+  return (
+    <>
+      <Quiz />
+    </>
+  );
 }
