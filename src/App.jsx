@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Note } from "./note";
+import { Upload } from "./upload";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="APP">
         <Routes>
           <Route path="/" element={<Note />} />
+          <Route path="/Upload" element={<Upload />} />
         </Routes>
       </div>
     </Router>

@@ -6,8 +6,10 @@ export const Header = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 50px;
   padding: 0px 35px;
   justify-content: space-between;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
 `;
 
 export const ButtonContainer = styled.div`
@@ -22,12 +24,11 @@ export const MyButton = styled.button`
   border: none;
   margin-right: 15px;
   &:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 `;
 
 export const MyIcon = styled.img`
-  padding-top: 5px;
   width: 35px;
   height: 35px;
 `;
