@@ -22,7 +22,7 @@ export function Note() {
         </S.TitleContainer>
 
         <S.QuizContainer>
-          <Quiz />
+          <Quiz note_id={1} />
         </S.QuizContainer>
 
         <S.Content>

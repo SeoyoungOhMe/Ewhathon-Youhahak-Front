@@ -15,6 +15,7 @@ export const Title = styled.p`
   font-size: 54px;
   font-weight: bold;
   margin-bottom: 40px;
+  margin-top: 20px;
 `;
 
 export const CourseInfoContainer = styled.div`

@@ -1,13 +1,24 @@
+import React, { useState } from "react";
 import * as S from "./quizBox.style";
 
-export function QuizBox() {
+export function QuizBox({ question, onAnswerChange, showResults }) {
+  const [userAnswer, setUserAnswer] = useState("");
+
+  const handleAnswerChange = (event) => {
+    setUserAnswer(event.target.value);
+    onAnswerChange(event.target.value); // 부모 컴포넌트로 사용자가 입력한 답안을 전달
+  };
+
   return (
     <>
-      <S.Question>
-        Q.서비스의 특성 중 제공자에 따라 품질이 달라지는 것을 무엇이라고 하나요?
-      </S.Question>
-
-      <S.WriteAnswer type="text" placeholder="답안 작성하기" />
+      <S.Question>{question}</S.Question>
+      <S.WriteAnswer
+        type="text"
+        placeholder="답안 작성하기"
+        value={userAnswer}
+        onChange={handleAnswerChange}
+        disabled={showResults}
+      />
     </>
   );
 }

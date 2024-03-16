@@ -20,12 +20,15 @@ export const Intro = styled.p`
 export const Close = styled.button`
   border: none;
   background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
 `;
 
 export const CloseIcon = styled.img`
   width: 24px;
   height: 24px;
   padding: 5px;
+
   &:hover {
     background-color: rgba(0, 0, 0, 0.05);
   }
