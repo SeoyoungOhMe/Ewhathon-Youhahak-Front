@@ -1,7 +1,21 @@
+//import React, { useState } from "react";
 import * as S from "./upload.style";
 import { Navbar } from "../navbar";
 
 export function Upload() {
+  /*const [courseInfo, setCourseInfo] = useState({
+    lectureName: "",
+    professorName: "",
+  });
+  const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
+  
+  const handlePost = async () => {
+    try{
+      const response = await fetch()
+    }
+  }
+*/
   return (
     <>
       <Navbar />

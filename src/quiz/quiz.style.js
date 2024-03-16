@@ -17,11 +17,15 @@ export const Intro = styled.p`
   font-size: 18px;
 `;
 
+export const CloseContainer = styled.div`
+  display: flex;
+  margin-left: auto;
+  //justify-content: flex-end;
+`;
+
 export const Close = styled.button`
   border: none;
   background-color: transparent;
-  display: flex;
-  justify-content: flex-end;
 `;
 
 export const CloseIcon = styled.img`
@@ -36,7 +40,9 @@ export const CloseIcon = styled.img`
 
 export const ButtonContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
+  //justify-content: flex-end;
+  margin-top: 25px;
 `;
 
 export const Button = styled.button`
@@ -51,4 +57,10 @@ export const Button = styled.button`
   &:hover {
     background-color: rgba(53, 174, 146, 0.5);
   }
+`;
+
+export const QuizBoxContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 90%;
 `;
