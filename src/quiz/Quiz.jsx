@@ -69,7 +69,11 @@ export function Quiz({ note_id }) {
       const correctAnswer = quizItems[index].answer; // API에 저장되어 있는 답안
       const isCorrect = userAnswer.trim() === correctAnswer.trim();
 
-      return { question: quizItems[index].question, isCorrect };
+      return {
+        question: quizItems[index].question,
+        answer: quizItems[index].answer,
+        isCorrect,
+      };
     });
 
     setResults(newResults);
@@ -119,24 +123,27 @@ export function Quiz({ note_id }) {
           <S.ButtonContainer>
             <S.Button onClick={handleSubmitAnswers}>채점하기</S.Button>
           </S.ButtonContainer>
-        </S.QuizBoxContainer>
 
-        {/* 수정: 채점 결과를 화면에 출력 */}
-        {showResults && (
-          <div>
-            {results.map((result, index) => (
-              <div key={index}>
-                <p>
-                  <strong>Question:</strong> {result.question}
-                </p>
-                <p>
-                  <strong>Is Correct:</strong>{" "}
-                  {result.isCorrect ? "정답" : "오답"}
-                </p>
-              </div>
-            ))}
-          </div>
-        )}
+          {/* 수정: 채점 결과를 화면에 출력 */}
+          {showResults && (
+            <S.ResultContainer>
+              <S.ResultTitle>채점 결과</S.ResultTitle>
+              {results.map((result, index) => (
+                <div key={index}>
+                  <S.ResultContent>
+                    <strong>Q{index + 1} :</strong> {result.question}
+                  </S.ResultContent>
+                  <S.ResultContent>
+                    <strong>A{index + 1} :</strong>{" "}
+                    <span style={{ color: result.isCorrect ? "black" : "red" }}>
+                      {result.answer}
+                    </span>
+                  </S.ResultContent>
+                </div>
+              ))}
+            </S.ResultContainer>
+          )}
+        </S.QuizBoxContainer>
       </Modal>
     </>
   );

@@ -64,3 +64,20 @@ export const QuizBoxContainer = styled.div`
   flex-direction: column;
   width: 90%;
 `;
+
+export const ResultContainer = styled.div`
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-bottom: 30px;
+`;
+
+export const ResultTitle = styled.p`
+  font-size: 24px;
+  font-weight: bold;
+`;
+
+export const ResultContent = styled.p`
+  font-size: 18px;
+`;
