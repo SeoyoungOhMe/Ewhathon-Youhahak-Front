@@ -114,6 +114,7 @@ function DocumentList({ documents }) {
               {doc.lectureName} | {doc.professorName}
             </div>
           </S.InfoContainer>
+
           <Link to={`/notes/${doc.id}`} style={{ textDecoration: "none" }}>
             <S.ViewButton>보러가기 →</S.ViewButton>
           </Link>

@@ -32,6 +32,11 @@ export const CourseInfo = styled.p`
   margin-right: 20px;
 `;
 
+export const NickName = styled.p`
+  font-size: 28px;
+  font-weight: bold;
+`;
+
 export const Date = styled.p`
   font-size: 24px;
   color: #919796;

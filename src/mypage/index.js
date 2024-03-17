@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DocumentList from "./documentList";
 import axios from "axios";
+import { Navbar } from "../navbar";
 
 const profileImages = [
   "https://i.namu.wiki/i/PuM_tryOdbshu8Sx0_qPskgfSC8JczlmZuDsix5KwcS3PpNFPOgxsWWk0VApw6U94UUkheo3BGPru3AR_yIMx7Gphfe4C2XHV4yUSt2Yew5PZQqqnzAuRkCCFEuMvhOLUSy2y8SCT9UoV76srUcNFQ.webp",
@@ -38,8 +39,8 @@ const profileContainerStyle = {
   flexDirection: "row", // 여기를 변경했습니다
   alignItems: "center", // 세로 중앙 정렬을 위해 추가했습니다
   justifyContent: "space-evenly", // 좌측 정렬을 위해 start로 설정
-  border: "1px solid #ddd",
-  borderRadius: "8px",
+  //border: "1px solid #ddd",
+  //borderRadius: "8px",
   padding: "20px",
   maxWidth: "300px",
   margin: "auto",
@@ -50,7 +51,7 @@ const profileImageStyle = {
   height: "80px",
   backgroundColor: "#ccc",
   borderRadius: "8px",
-  marginRight: "20px", // 사진과 닉네임 사이의 간격을 위해 추가했습니다
+  //marginRight: "20px", // 사진과 닉네임 사이의 간격을 위해 추가했습니다
 };
 
 const profileNameStyle = {
@@ -89,28 +90,34 @@ export const Mypage = () => {
   }, []);
 
   return (
-    <div style={{ paddingTop: "50px" }}>
-      <div style={profileHeaderStyle}>내 정보</div>
+    <>
+      <Navbar />
+      <div style={{ paddingTop: "50px" }}>
+        <div style={profileHeaderStyle}>내 정보</div>
 
-      <div style={profileContainerStyle}>
-        <div style={profileImageStyle}>
-          {/* 이미지가 있을 경우 img 태그로 렌더링합니다 */}
-          {profile.imageUrl && (
-            <img
-              src={profile.imageUrl}
-              alt="Profile"
-              style={{ width: "100%", height: "100%" }}
-            />
-          )}
+        <div style={profileContainerStyle}>
+          <div style={profileImageStyle}>
+            {/* 이미지가 있을 경우 img 태그로 렌더링합니다 */}
+            {profile.imageUrl && (
+              <img
+                src={profile.imageUrl}
+                alt="Profile"
+                style={{ width: "100%", height: "100%" }}
+              />
+            )}
+          </div>
+          <div>
+            <div style={profileNameStyle}>닉네임</div>
+            <strong style={profileNameStyle}>{profile.nickname}</strong>
+          </div>
         </div>
-        <div style={profileNameStyle}>{profile.nickname}</div>
-      </div>
 
-      <div style={containerStyle}>
-        <div style={documentListContainerStyle}>
-          <DocumentList />
+        <div style={containerStyle}>
+          <div style={documentListContainerStyle}>
+            <DocumentList />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };

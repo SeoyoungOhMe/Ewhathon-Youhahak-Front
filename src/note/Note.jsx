@@ -42,7 +42,7 @@ export function Note() {
             <S.CourseInfo style={{ color: "#919796" }}>교수명</S.CourseInfo>
             <S.CourseInfo>{noteData.professorName}</S.CourseInfo>
           </S.CourseInfoContainer>
-
+          <S.NickName>{noteData.studentName}</S.NickName>
           <S.Date>
             {noteData.createdDate && noteData.createdDate.substring(0, 10)}
           </S.Date>

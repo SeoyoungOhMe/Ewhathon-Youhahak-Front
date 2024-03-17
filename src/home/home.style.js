@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0px 150px;
+  margin: 0px 50px;
 `;
 
 export const InfoContainer = styled.div`
