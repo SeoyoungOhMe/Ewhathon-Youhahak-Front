@@ -20,8 +20,7 @@ export function Upload() {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization:
-              "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMkBnbWFpbC5jb20iLCJleHAiOjE3MTA2OTc2MzAsImVtYWlsIjoiMTJAZ21haWwuY29tIn0.1pl8dvE8ihFOBMOr269PBnTPO8tyTynb_9ukSKHst3_h-qkWt5AAIS_jl5upDvUgNholuiz2I4iO_u1lUBiQyg",
+            Authorization: `${localStorage.getItem("token")}`,
           },
           body: JSON.stringify({
             title: title,

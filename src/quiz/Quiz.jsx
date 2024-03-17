@@ -21,7 +21,7 @@ export function Quiz({ note_id }) {
           null,
           {
             headers: {
-              Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMkBnbWFpbC5jb20iLCJleHAiOjE3MTA2OTc2MzAsImVtYWlsIjoiMTJAZ21haWwuY29tIn0.1pl8dvE8ihFOBMOr269PBnTPO8tyTynb_9ukSKHst3_h-qkWt5AAIS_jl5upDvUgNholuiz2I4iO_u1lUBiQyg`,
+              Authorization: `${localStorage.getItem("token")}`,
             },
           }
         );
@@ -32,7 +32,7 @@ export function Quiz({ note_id }) {
           `${process.env.REACT_APP_BACKEND_URL}/notes/${note_id}`,
           {
             headers: {
-              Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMkBnbWFpbC5jb20iLCJleHAiOjE3MTA2OTc2MzAsImVtYWlsIjoiMTJAZ21haWwuY29tIn0.1pl8dvE8ihFOBMOr269PBnTPO8tyTynb_9ukSKHst3_h-qkWt5AAIS_jl5upDvUgNholuiz2I4iO_u1lUBiQyg`,
+              Authorization: `${localStorage.getItem("token")}`,
             },
           }
         );
