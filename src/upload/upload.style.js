@@ -66,7 +66,7 @@ export const WriteContent = styled.textarea`
   border: 1px solid #adadad;
   border-radius: 10px;
   resize: none;
-  line-spacing: 25px;
+  line-spacing: 35px;
   padding-left: 20px;
   padding-top: 15px;
   margin-bottom: 20px;
