@@ -20,9 +20,12 @@ export const ButtonContainer = styled.div`
 `;
 
 export const MyButton = styled.button`
+  display: flex;
   background-color: transparent;
   border: none;
-  margin-right: 15px;
+  border-radius: 35px;
+  margin-right: 25px;
+  padding: 5px;
   &:hover {
     background-color: rgba(255, 255, 255, 0.2);
   }
@@ -36,7 +39,7 @@ export const MyIcon = styled.img`
 export const UploadButton = styled.button`
   background-color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
   color: black;
