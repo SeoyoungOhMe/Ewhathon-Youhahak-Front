@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./upload.style";
 import { Navbar } from "../navbar";
+import { Link } from "react-router-dom";
 
 export function Upload() {
   const [courseInfo, setCourseInfo] = useState({
@@ -38,7 +39,7 @@ export function Upload() {
           "필기 노트가 성공적으로 등록되었습니다. 홈으로 이동하시겠습니까?"
         )
       ) {
-        window.location.href = "/"; // /home 홈으로 이동
+        window.location.href = "/home"; // /home 홈으로 이동
       }
     } catch (error) {
       console.error("Error:", error);
@@ -85,7 +86,9 @@ export function Upload() {
           onChange={(e) => setContent(e.target.value)}
         />
         <S.ButtonContainer>
-          <S.BackButton>취소하기</S.BackButton>
+          <Link to="/home">
+            <S.BackButton>취소하기</S.BackButton>
+          </Link>
           <S.OkButton onClick={handlePost}>등록하기</S.OkButton>
         </S.ButtonContainer>
       </S.PostContainer>

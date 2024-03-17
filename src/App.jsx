@@ -1,5 +1,9 @@
 import * as React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Mypage } from "./mypage";
+import { Login } from "./login";
+import { SignUp } from "./login/signUp";
+import { Home } from "./home";
 import { Note } from "./note";
 import { Upload } from "./upload";
 import Modal from "react-modal";
@@ -14,8 +18,12 @@ function App() {
     <Router>
       <div className="APP">
         <Routes>
-          <Route path="/" element={<Note />} />
-          <Route path="/Upload" element={<Upload />} />
+          <Route path="/" element={<SignUp />} />
+          <Route path="/myPage" element={<Mypage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/note" element={<Note />} />
+          <Route path="/upload" element={<Upload />} />
         </Routes>
       </div>
     </Router>

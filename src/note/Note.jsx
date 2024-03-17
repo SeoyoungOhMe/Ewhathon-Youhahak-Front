@@ -3,19 +3,20 @@ import { Quiz } from "../quiz";
 import { Navbar } from "../navbar";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useParams } from "react-router-dom";
 
 export function Note() {
+  const { noteId } = useParams();
   const [noteData, setNoteData] = useState({});
 
   useEffect(() => {
     const fetchNoteData = async () => {
       try {
         const response = await axios.get(
-          //`${process.env.REACT_APP_BACKEND_URL}/notes/${note_id}`,
-          `${process.env.REACT_APP_BACKEND_URL}/notes/1`,
+          `${process.env.REACT_APP_BACKEND_URL}/notes/${noteId}`,
           {
             headers: {
-              Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMkBnbWFpbC5jb20iLCJleHAiOjE3MTA2OTc2MzAsImVtYWlsIjoiMTJAZ21haWwuY29tIn0.1pl8dvE8ihFOBMOr269PBnTPO8tyTynb_9ukSKHst3_h-qkWt5AAIS_jl5upDvUgNholuiz2I4iO_u1lUBiQyg`,
+              Authorization: `${localStorage.getItem("token")}`,
             },
           }
         );
@@ -48,7 +49,7 @@ export function Note() {
         </S.TitleContainer>
 
         <S.QuizContainer>
-          <Quiz note_id={1} />
+          <Quiz note_id={noteId} />
         </S.QuizContainer>
 
         <S.Content>{noteData.content}</S.Content>
