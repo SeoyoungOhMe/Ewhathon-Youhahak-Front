@@ -61,6 +61,9 @@ npm run build
 npm start
 ```
 
+## 배포 주소
+https://ewhathon-notegather-vercel-test.vercel.app   
+
 
 ## 기능 설명
 ### AuthController: 회원가입 및 로그인 관련 API
