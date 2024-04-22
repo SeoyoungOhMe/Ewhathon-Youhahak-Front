@@ -52,7 +52,6 @@ NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학�
 ## 사용 방법
 
 ```
-npm install
 npm install axios
 ```
 ```
