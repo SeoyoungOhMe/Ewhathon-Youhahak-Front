@@ -1,10 +1,10 @@
 # NOTEGATHER
 
 ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/5810374a-ef56-450f-b080-9f535357b9c6)
-
+<!--
 [프론트엔드 레포지토리](https://github.com/Ewhathon-youhahak/Ewhathon-Youhahak-Front)  
 [백엔드 레포지토리](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back)
-
+-->
 
 ## **서비스 소개**
 
