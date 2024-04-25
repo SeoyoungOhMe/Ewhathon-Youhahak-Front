@@ -6,7 +6,7 @@
 [백엔드 레포지토리](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back)
 -->
 
-## **Service Introduction**
+## **About service**
 
 🏆 2024 이화톤 우수상 수상 🏆
 
