@@ -24,12 +24,7 @@ NOTEGATHER is a platform created to bridge the educational information gap among
 1.   필기 공유하기: 학생들이 강의 중 작성한 필기를 플랫폼에 업로드하고 공유합니다.
 2.   생성형 AI 활용하여 퀴즈 생성하기: 업로드된 필기를 바탕으로 AI가 맞춤형 퀴즈를 자동 생성해줍니다. 이 기능을 활용하여 학생들의 자가 학습 효율을 극대화할 수 있습니다.
 3.   노트 필기 검색하기: 강의명, 교수명 등의 키워드로 필요한 필기 노트를 쉽게 찾아볼 수 있습니다.
-4.   내가 올린 노트 필기 모아보기: 자신이 업로드한 필기 노트를 한눈에 확인하고 관리할 수 있습니다.
-
-1. Share your handwriting: Upload and share the handwriting students wrote during the lecture on the platform.
-2. Using Generative AI to create quizzes: Based on uploaded handwriting, AI automatically generates customized quizzes. You can utilize this feature to maximize students' self-learning efficiency.
-3. Note Search: Keywords such as lecture name and professor name make it easy to find the handwriting notes you need.
-4. Collect notes I uploaded: You can check and manage the notes you uploaded at a glance.
+4.   내가 올린 노트 필기 모아보기: 자신이 업로드한 필기 노트를 한눈에 확인하고 관리할 수 있습니다.   
 
 NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학습 자원을 공유하고 접근할 수 있는 환경을 목표로 합니다. 이화여대에 재학 중인 모든 학생들이, 학년과 국적을 불문하고, 이 플랫폼을 통해 학습의 질을 높이고, 학습 커뮤니티 내에서 서로를 지원하며 성장할 수 있기를 기대합니다.   
 
