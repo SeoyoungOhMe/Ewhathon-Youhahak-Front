@@ -6,7 +6,7 @@
 [백엔드 레포지토리](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back)
 -->
 
-## **서비스 소개**
+## **Service Introduction**
 
 🏆 2024 이화톤 우수상 수상 🏆
 
@@ -15,7 +15,9 @@
 **[학생들의 협력으로 만들어가는 학습 공유 커뮤니티, NOTEGATHER]**
 
 
-NOTEGATHER는 대학생들 사이의 교육 정보 격차를 해소하고자 탄생한 플랫폼입니다. 이는 학생들이 강의 중에 작성한 노트를 서로 공유하고, 생성형 AI를 이용해 이 필기를 바탕으로 맞춤형 퀴즈를 생성함으로써, 모든 학생이 효과적으로 자가 학습할 수 있도록 돕습니다. '함께 모이다(GATHER)'와 '노트(NOTE)'의 결합으로 명명된 NOTEGATHER는 교육 자료의 상호 공유를 통해 성장하는 커뮤니티를 목표로 합니다. 특히, 장애 학생 등 수업 참여에 어려움을 겪는 학생들이 학습 자료에 쉽게 접근할 수 있도록 하는 것을 핵심 목표로 하며, 이들을 위한 맞춤형 교육 자원 제공에 기여하고자 합니다. 이렇게 NOTEGATHER는 학생들의 자발적인 참여를 바탕으로 모든 대학생이 필요한 학습 자료를 손쉽게 공유하고 접할 수 있는 환경을 조성함으로써 교육의 격차를 줄이는 데 중점을 둡니다.
+NOTEGATHER는 대학생들 사이의 교육 정보 격차를 해소하고자 탄생한 플랫폼입니다. 이는 학생들이 강의 중에 작성한 노트를 서로 공유하고, 생성형 AI를 이용해 이 필기를 바탕으로 맞춤형 퀴즈를 생성함으로써, 모든 학생이 효과적으로 자가 학습할 수 있도록 돕습니다. '함께 모이다(GATHER)'와 '노트(NOTE)'의 결합으로 명명된 NOTEGATHER는 교육 자료의 상호 공유를 통해 성장하는 커뮤니티를 목표로 합니다. 특히, 장애 학생 등 수업 참여에 어려움을 겪는 학생들이 학습 자료에 쉽게 접근할 수 있도록 하는 것을 핵심 목표로 하며, 이들을 위한 맞춤형 교육 자원 제공에 기여하고자 합니다. 이렇게 NOTEGATHER는 학생들의 자발적인 참여를 바탕으로 모든 대학생이 필요한 학습 자료를 손쉽게 공유하고 접할 수 있는 환경을 조성함으로써 교육의 격차를 줄이는 데 중점을 둡니다.   
+
+NOTEGATHER is a platform created to bridge the educational information gap among college students. It helps all students effectively self-learn by sharing notes written during lectures and generating customized quizzes based on these notes using Generative AI. NOTEGATHER, named a combination of GATHER and NOTE, aims to create a community that grows through the mutual sharing of educational materials. In particular, its core goal is to make it easy for students who have difficulty participating in classes, such as students with disabilities, to access learning materials, and it intends to contribute to providing customized educational resources for them. NOTEGATHER focuses on narrowing the educational gap by creating an environment where all college students can easily share and access necessary learning materials based on the voluntary participation of students.
 
 **[주요 기능]**
 
@@ -24,9 +26,16 @@ NOTEGATHER는 대학생들 사이의 교육 정보 격차를 해소하고자 탄
 3.   노트 필기 검색하기: 강의명, 교수명 등의 키워드로 필요한 필기 노트를 쉽게 찾아볼 수 있습니다.
 4.   내가 올린 노트 필기 모아보기: 자신이 업로드한 필기 노트를 한눈에 확인하고 관리할 수 있습니다.
 
-NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학습 자원을 공유하고 접근할 수 있는 환경을 목표로 합니다. 이화여대에 재학 중인 모든 학생들이, 학년과 국적을 불문하고, 이 플랫폼을 통해 학습의 질을 높이고, 학습 커뮤니티 내에서 서로를 지원하며 성장할 수 있기를 기대합니다.
+1. Share your handwriting: Upload and share the handwriting students wrote during the lecture on the platform.
+2. Using Generative AI to create quizzes: Based on uploaded handwriting, AI automatically generates customized quizzes. You can utilize this feature to maximize students' self-learning efficiency.
+3. Note Search: Keywords such as lecture name and professor name make it easy to find the handwriting notes you need.
+4. Collect notes I uploaded: You can check and manage the notes you uploaded at a glance.
 
-## 팀원 소개
+NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학습 자원을 공유하고 접근할 수 있는 환경을 목표로 합니다. 이화여대에 재학 중인 모든 학생들이, 학년과 국적을 불문하고, 이 플랫폼을 통해 학습의 질을 높이고, 학습 커뮤니티 내에서 서로를 지원하며 성장할 수 있기를 기대합니다.   
+
+NOTEGATHER aims to narrow the educational gap and create an environment where all students can share and access learning resources equally. We hope that all students at Ewha Womans University, regardless of grade or nationality, will be able to improve the quality of learning, support each other, and grow within the learning community through this platform.
+
+## Team
 
 ---
 
@@ -36,7 +45,7 @@ NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학�
 | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/b93931f7-021e-4d2f-ac1b-2f31ced90be9) | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/fac5983b-7df5-4615-bf8b-7bc16b6fea05) | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/ec8c5fa2-2ec8-43cc-bf33-856e8f32b9d2) | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/d1937470-9e99-4580-a7b1-671b2b47ba1e) | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/01a35cce-0ad5-4bad-a2e1-6d2a14ca1b8a) |
 | Design/Service Design | Frontend Developer | Frontend Developer | Backend Developer | AI, Backend Developer |
 
-## 기술 스택
+## Stacks
 
 ### Frontend
 
@@ -52,7 +61,7 @@ NOTEGATHER는 교육의 격차를 줄이고, 모든 학생이 평등하게 학�
 - Google Cloud Storage/Cloud Run
 - OpenAI API
 
-## 사용 방법
+## Start Guide
 
 ```
 npm install axios
@@ -64,24 +73,24 @@ npm run build
 npm start
 ```
 
-## 배포 주소
+## Deployment Address
 https://ewhathon-notegather-vercel-test.vercel.app   
 
 
-## 기능 설명
-### AuthController: 회원가입 및 로그인 관련 API
+## Main Functions
+### AuthController: 회원가입 및 로그인 관련 API (API for membership and login)
 | HTTP Method | API Path | Description |
 | --- | --- | --- |
 | POST | /signup | 회원가입 |
 | POST | /login | 로그인 |
 
-### StudentController: 학생 관련 API
+### StudentController: 학생 관련 API (Student-related API)
 | HTTP Method | API Path | Description |
 | --- | --- | --- |
 | GET | /student | 학생 하나 가져오기 |
 | PATCH | /student | 학생 수정하기 |
 
-### NoteController: 노트필기 관련 API
+### NoteController: 노트필기 관련 API (Note-related API)
 | HTTP Method | API Path | Description |
 | --- | --- | --- |
 | POST | /notes | 필기 업로드 |
@@ -91,13 +100,13 @@ https://ewhathon-notegather-vercel-test.vercel.app
 | PATCH | /notes/{note_id} | 필기 수정하기 |
 | DELETE | /notes/{note_id} | 필기 삭제하기 |
 
-### QuizController: 퀴즈 관련 API
+### QuizController: 퀴즈 관련 API (Quiz-related API)
 | HTTP Method | API Path | Description |
 | --- | --- | --- |
 | POST | /api/quizzes/generate?noteId={note_id} | 퀴즈 생성하기 |
 
-## 프로젝트 구조
-### 프론트엔드
+## Project Structure
+### Front-end
 ```
 📦src
  ┣ 📂home
@@ -138,7 +147,7 @@ https://ewhathon-notegather-vercel-test.vercel.app
  ┣ 📜reportWebVitals.js
  ┗ 📜setupTests.js
 ```
-### 백엔드
+### Back-end
 ```
 └─src
     ├─main
@@ -205,11 +214,11 @@ https://ewhathon-notegather-vercel-test.vercel.app
     └─test\
 ```
 
-## 아키텍처
+## Architecture
 
 ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/a1687c5f-7883-4123-abf1-dbf1d68f5780)
 
-## 실행 화면
+## Page Configuration
 ### 회원 관련 페이지
 | 페이지명 | 페이지화면 |
 | --- | --- |
@@ -232,6 +241,6 @@ https://ewhathon-notegather-vercel-test.vercel.app
 | 퀴즈 채점 | ![image](https://github.com/Ewhathon-youhahak/Ewhathon-youhahak-back/assets/67725652/195d596f-7a8a-43fe-a085-019e63fd7e18) |
 
 
-## 데모 영상 링크
+## Demo Video Link
 
 https://www.youtube.com/watch?v=O9Y7png3yps&feature=youtu.be
